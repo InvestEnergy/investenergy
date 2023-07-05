@@ -187,14 +187,17 @@ export default function Home() {
             <div className="flex-1 min-h-[320px] flex flex-col justify-end overflow-hidden relative p-4 bg-white dark:bg-[#262626] rounded-xl">
               <Image height={370} width={300} alt="" className="!absolute !object-cover bottom-0 left-0" src="/card_two_bottom_left.png" />
               <Image height={400} width={200} alt="" className="!absolute mix-blend-multiply !h-full bottom-0 top-0 right-0" src="/card_two_right.png" />
-              <Image height={300} width={150} alt="" className="!absolute mix-blend-multiply !object-cover top-8  left-8" src="/card_two_light.png" />
+              <Image height={300} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-8  left-8" src="/card_two_light.png" />
               <h3 className="font-[600] font-prompt leading-[24.19px]">Waste Collection</h3>
               <p className="mt-4 z-20 relative font-prompt leading-[24.19px] text-[#1A1A1A] dark:text-white">
                 We take a proactive approach to managing waste. Our dedicated teams collect various types of waste, including domestic, commercial, industrial, and agricultural waste, as well as wood remnants. By diverting waste from landfills, we start the process of turning refuse into a resource.
               </p>
             </div>
 
-            <div className="flex-1 min-h-[320px] flex flex-col justify-end relative p-4 bg-white dark:bg-[#262626] rounded-xl">
+            <div className="flex-1 min-h-[320px] flex flex-col justify-end overflow-hidden relative  p-4 bg-white dark:bg-[#262626] rounded-xl">
+              <Image height={470} width={500} alt="" className="!absolute !object-cover bottom-0 left-0" src="/card_three_bottom.png" />
+              <Image height={150} width={150} alt="" className="!absolute mix-blend-multiply bottom-0 top-0 right-0" src="/card_three_top_right.png" />
+              <Image height={300} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-8  left-8" src="/card_three_light.png" />
               <h3 className="font-[600] font-prompt leading-[24.19px]">Waste Collection</h3>
               <p className="mt-4 font-prompt leading-[24.19px] text-[#1A1A1A] dark:text-white">
                 We take a proactive approach to managing waste. Our dedicated teams collect various types of waste, including domestic, commercial, industrial, and agricultural waste, as well as wood remnants. By diverting waste from landfills, we start the process of turning refuse into a resource.
@@ -203,6 +206,40 @@ export default function Home() {
 
           </div>
 
+        </section>
+
+
+        <section className="bg-[#F0F5FC] dark:bg-[#353535] py-24">
+          <div className="max-w-[1280px] mx-auto">
+            <h2 className="font-bold text-center font-prompt text-[28px] leading-[42.34px] max-w-[600px] mx-auto">
+              Find out what investors appreciate most  about <span className="text-skyblue-500">ENGC</span>
+            </h2>
+
+            <div className="grid grid-cols-1 gap-6 mt-6 place-items-center sm:grid-cols-2 lg:grid-cols-3 md:gap-8">
+
+              <div className="bg-white dark:bg-[#262626] rounded-[32px] p-8 max-w-[392px] flex-1">
+                <h3 className="font-prompt leading-[24.19px] text-center font-[600]">Green Returns</h3>
+                <p className="font-prompt leading-[24.19px] text-center mt-5">
+                  Dual benefit of financial gains and environmental impact.
+                </p>
+              </div>
+
+              <div className="bg-white dark:bg-[#262626] rounded-[32px] p-8 max-w-[392px] flex-1">
+                <h3 className="font-prompt leading-[24.19px] text-center font-[600]">Innovative Technology</h3>
+                <p className="font-prompt leading-[24.19px] text-center mt-5">
+                  Leading in waste transformation and blockchain integration.
+                </p>
+              </div>
+
+              <div className="bg-white dark:bg-[#262626] rounded-[32px] p-8 max-w-[392px] flex-1">
+                <h3 className="font-prompt leading-[24.19px] text-center font-[600]">Trust and Security</h3>
+                <p className="font-prompt leading-[24.19px] text-center mt-5">
+                  Providing transparent and secure investment platform
+                </p>
+              </div>
+
+            </div>
+          </div>
         </section>
 
       </div>
