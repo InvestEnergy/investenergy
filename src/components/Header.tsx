@@ -22,7 +22,7 @@ const Header = () => {
 				<span className="text-[#323232] md:hidden dark:text-white cursor-pointer">
 
 					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M7.33032 16H24.6704" stroke="currentColor" strokeWidth="2" stroke-linecap="round" strokeLinejoin="round" />
+						<path d="M7.33032 16H24.6704" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 						<path d="M7.33032 21.3354H24.6704" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 						<path d="M7.32983 10.6645H24.6699" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 					</svg>

@@ -80,7 +80,7 @@ export default function Home() {
                 <mask id="path-1-inside-1_156_2155" fill="white">
                   <path d="M60 52C60 55.9397 59.224 59.8407 57.7164 63.4805C56.2087 67.1203 53.999 70.4274 51.2132 73.2132C48.4274 75.999 45.1203 78.2087 41.4805 79.7164C37.8407 81.224 33.9397 82 30 82L30 52H60Z" />
                 </mask>
-                <path className="text-[#D4DBDC] dark:text-[#4E5151]" d="M60 52C60 55.9397 59.224 59.8407 57.7164 63.4805C56.2087 67.1203 53.999 70.4274 51.2132 73.2132C48.4274 75.999 45.1203 78.2087 41.4805 79.7164C37.8407 81.224 33.9397 82 30 82L30 52H60Z" stroke="currentColor" stroke-width="2" mask="url(#path-1-inside-1_156_2155)" />
+                <path className="text-[#D4DBDC] dark:text-[#4E5151]" d="M60 52C60 55.9397 59.224 59.8407 57.7164 63.4805C56.2087 67.1203 53.999 70.4274 51.2132 73.2132C48.4274 75.999 45.1203 78.2087 41.4805 79.7164C37.8407 81.224 33.9397 82 30 82L30 52H60Z" stroke="currentColor" strokeWidth="2" mask="url(#path-1-inside-1_156_2155)" />
                 <mask id="mask0_156_2155" maskUnits="userSpaceOnUse" x="18" y="8" width="61" height="56">
                   <rect x="18" y="8" width="61" height="55.7332" fill="url(#pattern0)" />
                 </mask>
@@ -110,7 +110,7 @@ export default function Home() {
                 <mask id="path-1-inside-1_156_2152" fill="white">
                   <path d="M43.3612 23.8382C44.3251 18.775 40.9629 13.7667 35.8172 14.0627C32.7232 14.2408 29.6509 14.7973 26.6703 15.7283C20.7054 17.5914 15.292 20.8969 10.9097 25.352C6.52745 29.807 3.31149 35.274 1.54673 41.2688C-0.21803 47.2636 -0.477115 53.601 0.792423 59.7199C2.06196 65.8387 4.82094 71.55 8.82496 76.3478C12.829 81.1457 17.9545 84.882 23.7474 87.2259C29.5403 89.5697 35.8219 90.4488 42.0357 89.7851C45.1406 89.4535 48.1807 88.7418 51.0902 87.6742C55.9289 85.8987 57.0211 79.9662 54.1224 75.7043C51.2238 71.4425 45.3314 70.6188 40.211 71.2082C40.1585 71.2143 40.106 71.2201 40.0534 71.2257C36.8918 71.5634 33.6956 71.1162 30.748 69.9236C27.8005 68.731 25.1925 66.8298 23.1552 64.3886C21.1179 61.9474 19.7141 59.0414 19.0681 55.928C18.4222 52.8146 18.554 49.59 19.4519 46.5398C20.3499 43.4895 21.9862 40.7078 24.216 38.441C26.4458 36.1742 29.2002 34.4923 32.2353 33.5443C32.2857 33.5285 32.3362 33.513 32.3868 33.4976C37.319 32.0013 42.3973 28.9015 43.3612 23.8382Z" />
                 </mask>
-                <path className="text-[#D4DBDC] dark:text-[#4E5151]" d="M43.3612 23.8382C44.3251 18.775 40.9629 13.7667 35.8172 14.0627C32.7232 14.2408 29.6509 14.7973 26.6703 15.7283C20.7054 17.5914 15.292 20.8969 10.9097 25.352C6.52745 29.807 3.31149 35.274 1.54673 41.2688C-0.21803 47.2636 -0.477115 53.601 0.792423 59.7199C2.06196 65.8387 4.82094 71.55 8.82496 76.3478C12.829 81.1457 17.9545 84.882 23.7474 87.2259C29.5403 89.5697 35.8219 90.4488 42.0357 89.7851C45.1406 89.4535 48.1807 88.7418 51.0902 87.6742C55.9289 85.8987 57.0211 79.9662 54.1224 75.7043C51.2238 71.4425 45.3314 70.6188 40.211 71.2082C40.1585 71.2143 40.106 71.2201 40.0534 71.2257C36.8918 71.5634 33.6956 71.1162 30.748 69.9236C27.8005 68.731 25.1925 66.8298 23.1552 64.3886C21.1179 61.9474 19.7141 59.0414 19.0681 55.928C18.4222 52.8146 18.554 49.59 19.4519 46.5398C20.3499 43.4895 21.9862 40.7078 24.216 38.441C26.4458 36.1742 29.2002 34.4923 32.2353 33.5443C32.2857 33.5285 32.3362 33.513 32.3868 33.4976C37.319 32.0013 42.3973 28.9015 43.3612 23.8382Z" stroke="currentColor" stroke-width="2" mask="url(#path-1-inside-1_156_2152)" />
+                <path className="text-[#D4DBDC] dark:text-[#4E5151]" d="M43.3612 23.8382C44.3251 18.775 40.9629 13.7667 35.8172 14.0627C32.7232 14.2408 29.6509 14.7973 26.6703 15.7283C20.7054 17.5914 15.292 20.8969 10.9097 25.352C6.52745 29.807 3.31149 35.274 1.54673 41.2688C-0.21803 47.2636 -0.477115 53.601 0.792423 59.7199C2.06196 65.8387 4.82094 71.55 8.82496 76.3478C12.829 81.1457 17.9545 84.882 23.7474 87.2259C29.5403 89.5697 35.8219 90.4488 42.0357 89.7851C45.1406 89.4535 48.1807 88.7418 51.0902 87.6742C55.9289 85.8987 57.0211 79.9662 54.1224 75.7043C51.2238 71.4425 45.3314 70.6188 40.211 71.2082C40.1585 71.2143 40.106 71.2201 40.0534 71.2257C36.8918 71.5634 33.6956 71.1162 30.748 69.9236C27.8005 68.731 25.1925 66.8298 23.1552 64.3886C21.1179 61.9474 19.7141 59.0414 19.0681 55.928C18.4222 52.8146 18.554 49.59 19.4519 46.5398C20.3499 43.4895 21.9862 40.7078 24.216 38.441C26.4458 36.1742 29.2002 34.4923 32.2353 33.5443C32.2857 33.5285 32.3362 33.513 32.3868 33.4976C37.319 32.0013 42.3973 28.9015 43.3612 23.8382Z" stroke="currentColor" strokeWidth="2" mask="url(#path-1-inside-1_156_2152)" />
                 <mask id="mask0_156_2152" maskUnits="userSpaceOnUse" x="25" y="0" width="51" height="50">
                   <rect x="25" y="0.873535" width="51" height="48.5251" fill="url(#pattern0)" />
                 </mask>
@@ -164,20 +164,17 @@ export default function Home() {
 
         <section className="max-w-[1280px] mx-auto my-[120px]">
 
-          <h2 className="font-bold text-center font-prompt text-[28px] leading-[42.34px]">
+          <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
             <span className="text-skyblue-500">Our Technology</span> in Detail
           </h2>
-          <p className="font-[400]  text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Converting Waste into Resources</p>
+          <p className="font-[400] my-4 text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Converting Waste into Resources</p>
 
           <div className="flex flex-col flex-wrap gap-4 mt-6 md:mt-10 md:flex-row">
 
-            <div className="flex-1 min-h-[430px] flex flex-col justify-end relative p-4 bg-white dark:bg-[#262626] rounded-xl">
+            <div className="flex-1 min-h-[430px] flex flex-col justify-end relative p-4 bg-white dark:bg-[#262626] overflow-hidden rounded-xl">
               <Image height={370} width={370} alt="" className="!absolute !object-cover top-0 left-0" src="/card_one_top_left.png" />
               <Image height={200} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-0 right-0" src="/card_one_top_sphere.png" />
               <Image height={200} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-5 left-5" src="/card_one_light.png" />
-
-
-
               <h3 className="font-[600] font-prompt leading-[24.19px]">Waste Collection</h3>
               <p className="mt-4 font-prompt leading-[24.19px] text-[#1A1A1A] dark:text-white">
                 We take a proactive approach to managing waste. Our dedicated teams collect various types of waste, including domestic, commercial, industrial, and agricultural waste, as well as wood remnants. By diverting waste from landfills, we start the process of turning refuse into a resource.
@@ -211,7 +208,7 @@ export default function Home() {
 
         <section className="bg-[#F0F5FC] dark:bg-[#353535] py-24">
           <div className="max-w-[1280px] mx-auto">
-            <h2 className="font-bold text-center font-prompt text-[28px] leading-[42.34px] max-w-[600px] mx-auto">
+            <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]max-w-[600px] mx-auto">
               Find out what investors appreciate most  about <span className="text-skyblue-500">ENGC</span>
             </h2>
 
@@ -240,6 +237,172 @@ export default function Home() {
 
             </div>
           </div>
+        </section>
+
+        <section className="py-24 bg-[#fafbfd] dark:bg-dark">
+          <div className="max-w-[1280px] flex flex-col gap-6 md:flex-row mx-auto">
+
+            <div className="flex-[2]">
+              <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
+                Uncover Your Earning <br className="hidden sm:inline-block" /> Potential with <span className="text-skyblue-500">ENGC</span>
+              </h2>
+              <p className="font-[400] font-prompt text-[18px] mt-2 text-[#1A1A1A] dark:text-white leading-[27.22px]">Investment opportunities tailored for everyone</p>
+
+              <Image src="/chart_light.png" className="mt-4 dark:hidden" height={417} width={360} alt="" />
+              <Image src="/chart_dark.png" className="hidden mt-4 dark:block" height={417} width={360} alt="" />
+
+            </div>
+
+            <div className="flex-[3]">
+              <div className="flex flex-col gap-4">
+
+                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer rounded-xl">
+                  <div className="flex justify-between ">
+                    <h3 className="font-prompt leading-[24.19px] font-[500]">Weekly Capital Accumulation</h3>
+                    <svg width="24" height="24" className="_rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <p className="mt-4 text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
+                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
+                  </p>
+                </div>
+
+                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
+                  <div className="flex justify-between ">
+                    <h3 className="font-prompt leading-[24.19px] font-[500]">Referral Bonuses</h3>
+                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <p className="mt-4 hidden group-focus:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
+                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
+                  </p>
+                </div>
+
+                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
+                  <div className="flex justify-between ">
+                    <h3 className="font-prompt leading-[24.19px] font-[500]">NFT Value Bonuses</h3>
+                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <p className="mt-4 hidden group-focus:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
+                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
+                  </p>
+                </div>
+
+                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
+                  <div className="flex justify-between ">
+                    <h3 className="font-prompt leading-[24.19px] font-[500]">Dividend Earnings</h3>
+                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <p className="mt-4 hidden group-focus-within:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
+                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
+                  </p>
+                </div>
+
+                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
+                  <div className="flex justify-between ">
+                    <h3 className="font-prompt leading-[24.19px] font-[500]">Long-Term Growth Potential</h3>
+                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <p className="mt-4 hidden group-focus:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
+                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+        <section className="max-w-[1240px] mx-auto py-12">
+
+          <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
+            Navigating the Path to a <span className="text-skyblue-500">Greener Future</span>
+          </h2>
+          <p className="font-[400]  text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Our roadmap: Where we are and where we're headed</p>
+
+          <div className="my-6 sm:my-10 lg:my-16">
+            <div className="relative grid grid-cols-1 my-4 ml-4 md:grid-cols-2 lg:grid-cols-3">
+              <div className="w-[150%] md:w-[50%] h-[3px] z-10 -top-[1px]  bg-skyblue-500 absolute"></div>
+              <svg width="24" className="absolute hidden md:inline left-[50%] -top-[24px] -translate-x-1/2" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fillRule="evenodd" clipRule="evenodd" d="M18.8231 11.5753L12.8121 20.2583C12.2611 21.0533 11.0141 20.6643 11.0141 19.6963V13.9733H5.9891C5.1931 13.9733 4.7241 13.0793 5.1781 12.4243L11.1891 3.74128C11.7401 2.94628 12.9871 3.33528 12.9871 4.30328V10.0263H18.0121C18.8071 10.0263 19.2761 10.9203 18.8231 11.5753Z" stroke="#00F1E8" strokeWidth="1.5383" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+
+
+              <div className="relative p-4 pl-0 dark:border-[#444444] border-t lg:border-b">
+                <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 1 - Conceptualization and Development</h3>
+
+                <ul>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Initial project conception.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Team assembly and planning.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Begin development of the ENGC app and website.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Draft the project's whitepaper.</li>
+                </ul>
+              </div>
+              <div className="relative p-4 pl-0 dark:border-[#444444] md:border-t md:border-r lg:border-b lg:border-r-0 rounded-r-2xl lg:rounded-r-none">
+                <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 2 - Community Building</h3>
+
+                <ul>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Launch the ENGC website.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Create and engage an online community.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Establish a beta testing group..</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Mint the initial collection of 6000 NFTs.</li>
+                </ul>
+              </div>
+              <div className="p-4 pl-0 dark:border-[#444444] md:border-t md:border-b md:border-l rounded-l-2xl lg:rounded-l-none lg:border-l-0 lg:border-r lg:rounded-r-2xl">
+                <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 3 - App Testing and Refinement</h3>
+
+                <ul>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Launch the beta version of the ENGC app.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Gather user feedback and perform necessary refinements.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Implement the 90% discount on NFTs and tokens for the testing period.</li>
+                </ul>
+              </div>
+
+              {/* </div>
+            <div className="grid grid-cols-1 my-4 md:grid-cols-2 lg:grid-cols-3"> */}
+
+              <div className="p-4 pl-0 dark:border-[#444444] md:border-t md:border-b lg:border-t-0 lg:border-b-0">
+                <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 4 - Token Transfer</h3>
+
+                <ul>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Successful beta testers transfer their tokens to the base version.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Ensure a 1-to-1 token transfer from testing to base version.</li>
+                </ul>
+              </div>
+              <div className="p-4 pl-0 dark:border-[#444444]">
+                <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 5 - Waste Processing System Implementation</h3>
+
+                <ul>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Initiate waste collection and transformation into RDF pellets.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Begin pyrolysis burning process.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Monitor and refine system operations to ensure efficiency.</li>
+                </ul>
+              </div>
+              <div className="p-4 pl-0 dark:border-[#444444]">
+                <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 6 - Investment Expansion</h3>
+
+                <ul>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Establish and expand pellet factories.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Facilitate the sale of NFTs to fund the construction of these factories.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Set up an automated system for weekly dividends from factories' profits.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Promote trading of NFTs and ENGC tokens on app marketplace and decentralized exchanges.</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+
         </section>
 
       </div>
