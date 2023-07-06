@@ -163,14 +163,15 @@ export default function Home() {
         </section>
 
 
-        <section className="max-w-[1280px] mx-auto my-[120px]">
+        <section className="max-w-[1280px] mx-auto my-[120px] relative">
+          <Image fill src="/grid_bg.png" alt="" className="!absolute inset-0 !top-16 z-[1] object-fill" />
 
-          <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
+          <h2 className="relative z-10 font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
             <span className="text-skyblue-500">Our Technology</span> in Detail
           </h2>
-          <p className="font-[400] my-4 text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Converting Waste into Resources</p>
+          <p className="relative z-10 font-[400] my-4 text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Converting Waste into Resources</p>
 
-          <div className="flex flex-col flex-wrap gap-4 mt-6 md:mt-10 md:flex-row">
+          <div className="relative z-10 flex flex-col flex-wrap gap-4 mt-6 md:mt-10 md:flex-row">
 
             <div className="flex-1 min-h-[430px] flex flex-col justify-end relative p-4 bg-white dark:bg-[#262626] overflow-hidden rounded-xl">
               <Image height={370} width={370} alt="" className="!absolute !object-cover top-0 left-0" src="/card_one_top_left.png" />
@@ -244,13 +245,13 @@ export default function Home() {
           <div className="max-w-[1280px] flex flex-col gap-6 md:flex-row mx-auto">
 
             <div className="flex-[2]">
-              <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
+              <h2 className="font-bold text-center md:text-left font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
                 Uncover Your Earning <br className="hidden sm:inline-block" /> Potential with <span className="text-skyblue-500">ENGC</span>
               </h2>
               <p className="font-[400] font-prompt text-[18px] mt-2 text-[#1A1A1A] dark:text-white leading-[27.22px]">Investment opportunities tailored for everyone</p>
 
-              <Image src="/chart_light.png" className="mt-4 dark:hidden" height={417} width={360} alt="" />
-              <Image src="/chart_dark.png" className="hidden mt-4 dark:block" height={417} width={360} alt="" />
+              <Image src="/chart_light.png" className="object-cover mt-4 dark:hidden" height={417} width={360} alt="" />
+              <Image src="/chart_dark.png" className="hidden object-cover mt-4 dark:block" height={417} width={360} alt="" />
 
             </div>
 
@@ -340,6 +341,7 @@ export default function Home() {
 
 
               <div className="relative p-4 pl-0 dark:border-[#444444] border-t lg:border-b">
+                <div className="absolute top-0 z-10 w-2.5 h-2.5 -translate-y-1/2 rounded-full bg-skyblue-500 "></div>
                 <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 1 - Conceptualization and Development</h3>
 
                 <ul>
@@ -350,6 +352,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className="relative p-4 pl-0 dark:border-[#444444] md:border-t md:border-r lg:border-b lg:border-r-0 rounded-r-2xl lg:rounded-r-none">
+                <div className="absolute top-0 z-10 w-2.5 h-2.5 hidden md:block -translate-y-1/2 rounded-full bg-skyblue-500 "></div>
                 <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 2 - Community Building</h3>
 
                 <ul>
@@ -359,7 +362,8 @@ export default function Home() {
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Mint the initial collection of 6000 NFTs.</li>
                 </ul>
               </div>
-              <div className="p-4 pl-0 dark:border-[#444444] md:border-t md:border-b md:border-l rounded-l-2xl lg:rounded-l-none lg:border-l-0 lg:border-r lg:rounded-r-2xl">
+              <div className="p-4 pl-0 dark:border-[#444444] relative md:border-t md:border-b md:border-l rounded-l-2xl lg:rounded-l-none lg:border-l-0 lg:border-r lg:rounded-r-2xl">
+                <div className="absolute top-0 z-10 w-2.5 h-2.5 hidden md:block -translate-y-1/2 rounded-full bg-[#DDDEE0] "></div>
                 <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 3 - App Testing and Refinement</h3>
 
                 <ul>
@@ -372,7 +376,8 @@ export default function Home() {
               {/* </div>
             <div className="grid grid-cols-1 my-4 md:grid-cols-2 lg:grid-cols-3"> */}
 
-              <div className="p-4 pl-0 dark:border-[#444444] md:border-t md:border-b lg:border-t-0 lg:border-b-0">
+              <div className="p-4 pl-0 dark:border-[#444444] md:border-t md:border-b relative lg:border-t-0 lg:border-b-0">
+                <div className="absolute top-0 z-10 w-2.5 h-2.5 hidden md:block -translate-y-1/2 rounded-full bg-[#DDDEE0] "></div>
                 <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 4 - Token Transfer</h3>
 
                 <ul>
@@ -380,7 +385,8 @@ export default function Home() {
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Ensure a 1-to-1 token transfer from testing to base version.</li>
                 </ul>
               </div>
-              <div className="p-4 pl-0 dark:border-[#444444]">
+              <div className="p-4 pl-0 dark:border-[#444444] relative">
+                <div className="absolute top-0 z-10 w-2.5 h-2.5 hidden md:block -translate-y-1/2 rounded-full bg-[#DDDEE0] "></div>
                 <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 5 - Waste Processing System Implementation</h3>
 
                 <ul>
@@ -389,7 +395,8 @@ export default function Home() {
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Monitor and refine system operations to ensure efficiency.</li>
                 </ul>
               </div>
-              <div className="p-4 pl-0 dark:border-[#444444]">
+              <div className="p-4 pl-0 dark:border-[#444444] relative">
+                <div className="absolute top-0 z-10 w-2.5 h-2.5 hidden md:block -translate-y-1/2 rounded-full bg-[#DDDEE0] "></div>
                 <h3 className="font-prompt leading-[24.19px] font-[500]">Phase 6 - Investment Expansion</h3>
 
                 <ul>
