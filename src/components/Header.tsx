@@ -63,7 +63,7 @@ const Header = () => {
 					</div>
 
 					<ul className="flex flex-col divide-y-[2px] divide-[#F0F5FC] dark:divide-opacity-50 mt-12 ">
-						<li className="py-6">
+						<li onClick={() => setSidebarOpen(false)} className="py-6">
 							<Link href="#">
 								<Image
 									height={40}
@@ -73,10 +73,10 @@ const Header = () => {
 								/>
 							</Link>
 						</li>
-						<li className="py-6">
+						<li onClick={() => setSidebarOpen(false)} className="py-6">
 							<Link href="#" className="text-xl font-bold">Whitepaper</Link>
 						</li>
-						<li className="py-6">
+						<li onClick={() => setSidebarOpen(false)} className="py-6">
 							<ThemeToggle />
 
 						</li>

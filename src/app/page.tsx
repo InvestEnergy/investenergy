@@ -6,18 +6,18 @@ export default function Home() {
 
       <div className="p-4 pb-0">
 
-        <section className="max-w-[1388px] rounded-[35px] bg-[#f3fbfc] dark:bg-[#1f2626] min-h-[350px] md:min-h-[502px] mx-auto relative">
+        <section className="max-w-[1388px] rounded-[35px] p-4 bg-center bg-no-repeat bg-cover  bg-[url(/hero_bg_light.png)] dark:bg-[url(/)] _bg-[#f3fbfc] dark:bg-[#1f2626] min-h-[350px] md:min-h-[502px] mx-auto relative">
           <div className="dark:bg-[url(/stripes.png)] bg-no-repeat bgCover top-0 left-0 absolute right-0 h-[200px]"></div>
           <div className="dark:bg-[url(/stripes.png)] bg-no-repeat bg-cover bottom-0 left-0 rotate-180 absolute right-0 h-[200px]"></div>
           <Image
-            className="!absolute hidden dark:block top-0 right-0"
+            className="!absolute z-10 hidden md:dark:block top-0 right-0"
             height={100}
             width={200}
             src="/br_cube.png"
             alt=""
           />
           <Image
-            className="!absolute hidden dark:block bottom-0 left-0"
+            className="!absolute z-10 hidden md:dark:block bottom-0 left-0"
             height={100}
             width={200}
             src="/bl_cube.png"
@@ -30,8 +30,14 @@ export default function Home() {
             src="/center_rock.png"
             alt=""
           /> */}
+          {/* <Image
+            className="!absolute top-0 left-0 min-w-[] bottom-0 right-0 z-10 mix-blend-dark-light dark:hidden"
+            fill
+            src="/hero_bg_light.png"
+            alt=""
+          /> */}
           <Image
-            className="!absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 mix-blend-dark-light dark:mix-blend-overlay"
+            className="!absolute z-[17] !h-[300px] !w-[300px] md:!h-[400px] md:!w-[400px] top-1/2 left-1/2 hidden dark:block -translate-x-1/2 -translate-y-1/2 mix-blend-overlay"
             height={380}
             width={370}
             src="/center_rock.png"
@@ -44,7 +50,7 @@ export default function Home() {
             "
           /> */}
 
-          <div className="absolute z-20 flex flex-col items-center w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          <div className="absolute z-20 flex flex-col items-center w-full p-4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
             <h1 className="text-[24px] md:text-[42px] md:leading-[51px] font-bold">
               Driving a <span className="text-greenish-500">Greener Future</span>  <br />
               with <span className="text-skyblue-500">Blockchain & NFTs</span>
