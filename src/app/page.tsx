@@ -1,3 +1,4 @@
+import RevealDropDown from "@/components/RevealDropDown";
 import Image from "next/image";
 
 export default function Home() {
@@ -36,8 +37,9 @@ export default function Home() {
             src="/hero_bg_light.png"
             alt=""
           /> */}
+
           <Image
-            className="!absolute z-[17] !h-[300px] !w-[300px] md:!h-[400px] md:!w-[400px] top-1/2 left-1/2 hidden dark:block -translate-x-1/2 -translate-y-1/2 mix-blend-overlay"
+            className="!absolute animate-spin_ rotate-45 origin-center z-[17] !h-[300px] !w-[300px] md:!h-[400px] md:!w-[400px] top-1/2 left-1/2 hidden dark:block -translate-x-1/2 -translate-y-1/2 mix-blend-overlay"
             height={380}
             width={370}
             src="/center_rock.png"
@@ -180,32 +182,36 @@ export default function Home() {
           <div className="relative z-10 flex flex-col flex-wrap gap-4 mt-6 md:mt-10 md:flex-row">
 
             <div className="flex-1 min-h-[430px] flex flex-col justify-end relative p-4 bg-white dark:bg-[#262626] overflow-hidden rounded-xl">
-              <Image height={370} width={370} alt="" className="!absolute !object-cover top-0 left-0" src="/card_one_top_left.png" />
-              <Image height={200} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-0 right-0" src="/card_one_top_sphere.png" />
-              <Image height={200} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-5 left-5" src="/card_one_light.png" />
-              <h3 className="font-[600] font-prompt leading-[24.19px]">Waste Collection</h3>
-              <p className="mt-4 font-prompt leading-[24.19px] text-[#1A1A1A] dark:text-white">
+              <Image height={370} width={370} alt="" className="!absolute !object-cover bottom-0 -left-0" src="/card_one_bottom.png" />
+              <Image height={200} width={200} alt="" className="!absolute mix-blend-multiply dark:mix-blend-normal !object-cover top-0 right-0" src="/card_one_top_sphere.png" />
+              <Image height={200} width={200} alt="" className="!absolute mix-blend-multiply dark:hidden !object-cover top-5 left-5" src="/card_one_light.png" />
+              <Image height={200} width={200} alt="" className="!absolute hidden dark:block !object-cover top-5 left-5" src="/card_one_dark.png" />
+              <h3 className="font-[600] relative z-10 font-prompt leading-[24.19px]">Waste Collection</h3>
+              <p className="mt-4 font-prompt relative z-10 leading-[24.19px] text-[#1A1A1A] dark:text-white">
                 We take a proactive approach to managing waste. Our dedicated teams collect various types of waste, including domestic, commercial, industrial, and agricultural waste, as well as wood remnants. By diverting waste from landfills, we start the process of turning refuse into a resource.
               </p>
             </div>
 
             <div className="flex-1 min-h-[320px] flex flex-col justify-end overflow-hidden relative p-4 bg-white dark:bg-[#262626] rounded-xl">
               <Image height={370} width={300} alt="" className="!absolute !object-cover bottom-0 left-0" src="/card_two_bottom_left.png" />
-              <Image height={400} width={200} alt="" className="!absolute mix-blend-multiply !h-full bottom-0 top-0 right-0" src="/card_two_right.png" />
-              <Image height={300} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-8  left-8" src="/card_two_light.png" />
-              <h3 className="font-[600] font-prompt leading-[24.19px]">Waste Collection</h3>
+              <Image height={400} width={200} alt="" className="!absolute mix-blend-multiply dark:mix-blend-normal !h-full bottom-0 top-0 right-0" src="/card_two_right.png" />
+              <Image height={300} width={200} alt="" className="!absolute dark:hidden mix-blend-multiply !object-cover top-8  left-8" src="/card_two_light.png" />
+              <Image height={300} width={200} alt="" className="!absolute hidden dark:block !object-cover top-8  left-8" src="/card_two_dark.png" />
+              <h3 className="font-[600] relative z-10 font-prompt leading-[24.19px]">Transformation into RDF pellets</h3>
               <p className="mt-4 z-20 relative font-prompt leading-[24.19px] text-[#1A1A1A] dark:text-white">
-                We take a proactive approach to managing waste. Our dedicated teams collect various types of waste, including domestic, commercial, industrial, and agricultural waste, as well as wood remnants. By diverting waste from landfills, we start the process of turning refuse into a resource.
+                The collected waste undergoes a comprehensive treatment process at our specialized facilities. The waste is sorted, dried, and then transformed into Refuse Derived Fuel (RDF) pellets. These pellets are high in calorific value, making them an efficient source of energy.
               </p>
             </div>
 
-            <div className="flex-1 min-h-[320px] flex flex-col justify-end overflow-hidden relative  p-4 bg-white dark:bg-[#262626] rounded-xl">
-              <Image height={470} width={500} alt="" className="!absolute !object-cover bottom-0 left-0" src="/card_three_bottom.png" />
-              <Image height={150} width={150} alt="" className="!absolute mix-blend-multiply bottom-0 top-0 right-0" src="/card_three_top_right.png" />
-              <Image height={300} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-8  left-8" src="/card_three_light.png" />
-              <h3 className="font-[600] font-prompt leading-[24.19px]">Waste Collection</h3>
-              <p className="mt-4 font-prompt leading-[24.19px] text-[#1A1A1A] dark:text-white">
-                We take a proactive approach to managing waste. Our dedicated teams collect various types of waste, including domestic, commercial, industrial, and agricultural waste, as well as wood remnants. By diverting waste from landfills, we start the process of turning refuse into a resource.
+            <div className="flex-1 min-h-[450px] md:min-h-[320px] flex flex-col justify-end overflow-hidden relative  p-4 bg-white dark:bg-[#262626] rounded-xl">
+              <Image height={470} width={500} alt="" className="!absolute !h-[70%] !object-cover !w-full bottom-0 left-0" src="/card_three_bottom.png" />
+              <Image height={150} width={150} alt="" className="!absolute mix-blend-multiply dark:hidden bottom-0 top-0 right-0" src="/card_three_top_right.png" />
+              <Image height={150} width={150} alt="" className="!absolute hidden dark:block bottom-0 top-0 right-0" src="/card_three_top_right_dark.png" />
+              <Image height={300} width={200} alt="" className="!absolute mix-blend-multiply !object-cover top-8 dark:hidden  left-8" src="/card_three_light.png" />
+              <Image height={300} width={200} alt="" className="!absolute hidden dark:block !object-cover top-8  left-8" src="/card_three_dark.png" />
+              <h3 className="font-[600] relative z-10 dark:text-white font-prompt leading-[24.19px]">Pyrolysis burning</h3>
+              <p className="mt-4 font-prompt relative z-10 leading-[24.19px] text-[#1A1A1A] dark:text-white">
+                Refuse Derived Fuel (RDF) pellets undergo pyrolysis, an oxygen-limited, high-temperature process that efficiently reduces emissions while producing versatile clean energy, usable for electricity generation, heating, hot water production, and even summer cooling systems.
               </p>
             </div>
 
@@ -217,7 +223,7 @@ export default function Home() {
         <section className="bg-[#F0F5FC] dark:bg-[#353535] py-24">
           <div className="max-w-[1280px] mx-auto">
             <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]max-w-[600px] mx-auto">
-              Find out what investors appreciate most  about <span className="text-skyblue-500">ENGC</span>
+              Find out what investors appreciate most <br />  about <span className="text-skyblue-500">ENGC</span>
             </h2>
 
             <div className="grid grid-cols-1 gap-6 mt-6 place-items-center sm:grid-cols-2 lg:grid-cols-3 md:gap-8">
@@ -264,65 +270,31 @@ export default function Home() {
             <div className="flex-[3]">
               <div className="flex flex-col gap-4">
 
-                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer rounded-xl">
-                  <div className="flex justify-between ">
-                    <h3 className="font-prompt leading-[24.19px] font-[500]">Weekly Capital Accumulation</h3>
-                    <svg width="24" height="24" className="_rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <p className="mt-4 text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
-                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
-                  </p>
-                </div>
+                <RevealDropDown
+                  title="Weekly Capital Accumulation"
+                  reveal={true}
+                  description="Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step."
+                />
 
-                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
-                  <div className="flex justify-between ">
-                    <h3 className="font-prompt leading-[24.19px] font-[500]">Referral Bonuses</h3>
-                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <p className="mt-4 hidden group-focus:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
-                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
-                  </p>
-                </div>
+                <RevealDropDown
+                  title="Referral Bonuses"
+                  description="Earn bonus ENGC tokens by inviting other users to join our NFT platform."
+                />
 
-                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
-                  <div className="flex justify-between ">
-                    <h3 className="font-prompt leading-[24.19px] font-[500]">NFT Value Bonuses</h3>
-                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <p className="mt-4 hidden group-focus:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
-                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
-                  </p>
-                </div>
+                <RevealDropDown
+                  title="NFT Value Bonuses"
+                  description="Depending on your NFT purchase value, earn additional ENGC bonus tokens."
+                />
 
-                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
-                  <div className="flex justify-between ">
-                    <h3 className="font-prompt leading-[24.19px] font-[500]">Dividend Earnings</h3>
-                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <p className="mt-4 hidden group-focus-within:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
-                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
-                  </p>
-                </div>
+                <RevealDropDown
+                  title="Dividend Earnings"
+                  description="Receive weekly dividends from the profits of our pellet factories and energy transformation modules."
+                />
 
-                <div className="p-6 bg-white dark:bg-[#262626] cursor-pointer group rounded-xl">
-                  <div className="flex justify-between ">
-                    <h3 className="font-prompt leading-[24.19px] font-[500]">Long-Term Growth Potential</h3>
-                    <svg width="24" height="24" className="rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 14L12 10L8 14" stroke="#00F1E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <p className="mt-4 hidden group-focus:block text-[#000000] font-prompt  dark:text-white leading-[24.19px]">
-                    Earn £10 per week over a 5-year period with ENGC token activation, accumulating wealth step by step.
-                  </p>
-                </div>
+                <RevealDropDown
+                  title="Long-Term Growth Potential"
+                  description="As ENGC grows, so does your investment with the increasing value of our tokens."
+                />
 
               </div>
             </div>
