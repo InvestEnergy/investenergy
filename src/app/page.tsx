@@ -336,7 +336,7 @@ export default function Home() {
           <h2 className="font-bold text-center font-prompt text-[24px] md:text-[28px] leading-[36.29px] md:leading-[42.34px]">
             Navigating the Path to a <span className="text-skyblue-500">Greener Future</span>
           </h2>
-          <p className="font-[400]  text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Our roadmap: Where we are and where we're headed</p>
+          <p className="font-[400]  text-center font-prompt text-[18px] text-[#1A1A1A] dark:text-white leading-[27.22px]">Our roadmap: Where we are and where we&apos;re headed</p>
 
           <div className="my-6 sm:my-10 lg:my-16">
             <div className="relative grid grid-cols-1 my-4 ml-4 md:grid-cols-2 lg:grid-cols-3">
