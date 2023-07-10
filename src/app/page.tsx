@@ -354,7 +354,7 @@ export default function Home() {
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Initial project conception.</li>
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Team assembly and planning.</li>
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Begin development of the ENGC app and website.</li>
-                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Draft the project's whitepaper.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Draft the project&apos;s whitepaper.</li>
                 </ul>
               </div>
               <div className="relative p-4 pl-0 dark:border-[#444444] md:border-t md:border-r lg:border-b lg:border-r-0 rounded-r-2xl lg:rounded-r-none">
@@ -408,7 +408,7 @@ export default function Home() {
                 <ul>
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Establish and expand pellet factories.</li>
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Facilitate the sale of NFTs to fund the construction of these factories.</li>
-                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Set up an automated system for weekly dividends from factories' profits.</li>
+                  <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Set up an automated system for weekly dividends from factories&apos; profits.</li>
                   <li className="leading-[21.17px] text-[14px] list-disc my-4 ml-6 font-prompt">Promote trading of NFTs and ENGC tokens on app marketplace and decentralized exchanges.</li>
                 </ul>
               </div>
