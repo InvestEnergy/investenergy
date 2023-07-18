@@ -12,7 +12,7 @@ const ThemeToggle = () => {
 		setMounted(true);
 	}, []);
 
-	if (!mounted) return null;
+	if (!mounted) return <></>;
 
 	return (
 		<button
