@@ -2,7 +2,7 @@ import React from 'react'
 
 const JoinUs = () => {
   return (
-    <section data-aos="fade-up" className="-mx-6 md:mx-0">
+    <section data-aos="fade-up" data-aos-offset="500" className="-mx-6 md:mx-0">
       <div className="bg-[#15f295] md:-bottom-[60px] py-20 md:min-h-[293px] max-w-7xl px-5 flex flex-col justify-center relative overflow-hidden items-center mx-auto md:rounded-[32px]">
         <h2 className="font-bold relative dark:text-black z-10 text-center font-prompt text-2xl md:text-h2 ">
           Join Us in Pioneering Green Investments
