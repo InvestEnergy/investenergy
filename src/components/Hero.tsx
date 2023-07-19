@@ -34,9 +34,15 @@ const Hero = () => {
         </div>
 
         <Image
-          className="!absolute dark:hidden object-cover z-20 hidden md:block left-0"
+          className="!absolute dark:hidden object-cover z-20 left-0"
           fill
           src="/hero_bg.png"
+          alt=""
+        />
+        <Image
+          className="!absolute hidden dark:block object-cover z-20 left-0"
+          fill
+          src="/hero_black_bg.png"
           alt=""
         />
 
