@@ -1,14 +1,19 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Engc = () => {
   return (
     <section className="bg-[#F0F5FC] dark:bg-[#353535] py-24">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="font-bold text-center font-prompt text-2xl md:text-h2  max-w-[600px] mx-auto">
+      <div className="max-w-7xl relative mx-auto">
+        <Image data-aos="fade-up" className='absolute bottom-1/2 md:-bottom-10 left-full md:left-[29%] z-0' src={"/engc1.png"} width={96} height={60} alt='engc1' />
+        <Image data-aos="fade-up" className='absolute -top-10 right-52 z-0' src={"/engc2.png"} width={66} height={26} alt='engc2' />
+        <Image data-aos="fade-up" className='absolute -bottom-5 -right-10 z-0' src={"/engc3.png"} width={76} height={89} alt='engc3' />
+
+        <h2 data-aos="fade-up" className="font-bold text-center font-prompt text-2xl md:text-h2  max-w-xl mx-auto">
           Find out what investors appreciate most <br />  about <span className="text-skyblue-500">ENGC</span>
         </h2>
 
-        <div className="grid grid-cols-1 gap-6 mt-6 place-items-center sm:grid-cols-2 lg:grid-cols-3 md:gap-8">
+        <div data-aos="fade-up" className="relative z-10 grid grid-cols-1 gap-6 mt-6 place-items-center sm:grid-cols-2 lg:grid-cols-3 md:gap-8">
 
           <div className="bg-white dark:bg-[#262626] rounded-[32px] p-8 max-w-[392px] flex-1">
             <h3 className="font-prompt leading-6 text-center font-semibold">Green Returns</h3>

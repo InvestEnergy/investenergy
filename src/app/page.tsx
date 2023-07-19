@@ -21,7 +21,7 @@ export default function Home() {
       easing: "ease-out-cubic",
       offset: 50,
       delay: 300,
-      duration: 800
+      duration: 600
     });
   }, []);
   
