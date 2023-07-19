@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navigating = () => {
   return (
-    <section className="max-w-7xl px-5 mx-auto py-12">
+    <section data-aos="fade-up" data-aos-offset="400" data-aos-delay="200" data-aos-easing="ease-in-out" className="max-w-7xl px-5 mx-auto py-12">
       <h2 className="font-bold text-center font-prompt text-2xl md:text-h2 ">
         Navigating the Path to a <span className="text-skyblue-500">Greener Future</span>
       </h2>
