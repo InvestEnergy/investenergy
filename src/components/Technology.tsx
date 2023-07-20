@@ -18,7 +18,7 @@ const Technology = () => {
       </h2>
       <p
         data-aos="fade-up"
-        className="relative text-center font-prompt text-lg text-[#1A1A1A] dark:text-white  z-10  my-4">
+        className="relative text-center font-prompt text-lg text-dark-200 dark:text-white  z-10  my-4">
         Converting Waste into Resources
       </p>
       {/* our technology in detail section cards */}
@@ -60,7 +60,7 @@ const Technology = () => {
           <h3 className="font-semibold relative z-10 font-prompt leading-6">
             Waste Collection
           </h3>
-          <p className="mt-4 font-prompt relative z-10 leading-6 text-[#1A1A1A] dark:text-white">
+          <p className="mt-4 font-prompt relative z-10 leading-6 text-dark-200 dark:text-white">
             We take a proactive approach to managing waste. Our dedicated teams
             collect various types of waste, including domestic, commercial,
             industrial, and agricultural waste, as well as wood remnants. By
@@ -106,7 +106,7 @@ const Technology = () => {
           <h3 className="font-semibold relative z-10 font-prompt leading-6">
             Transformation into RDF pellets
           </h3>
-          <p className="mt-4 z-20 relative font-prompt leading-6 text-[#1A1A1A] dark:text-white">
+          <p className="mt-4 z-20 relative font-prompt leading-6 text-dark-200 dark:text-white">
             The collected waste undergoes a comprehensive treatment process at
             our specialized facilities. The waste is sorted, dried, and then
             transformed into Refuse Derived Fuel (RDF) pellets. These pellets
@@ -159,7 +159,7 @@ const Technology = () => {
           <h3 className="font-semibold relative z-10 dark:text-white font-prompt leading-6">
             Pyrolysis burning
           </h3>
-          <p className="mt-4 font-prompt relative z-10 leading-6 text-[#1A1A1A] dark:text-white">
+          <p className="mt-4 font-prompt relative z-10 leading-6 text-dark-200 dark:text-white">
             Refuse Derived Fuel (RDF) pellets undergo pyrolysis, an
             oxygen-limited, high-temperature process that efficiently reduces
             emissions while producing versatile clean energy, usable for

@@ -53,11 +53,11 @@ const Hero = () => {
             with <span className="text-skyblue-500">Blockchain & NFTs</span>
           </h1>
 
-          <p className="max-w-[450px] dark:text-white mt-4 text-center md:text-lg text-[#1A1A1A] font-medium font-prompt leading-h2">
+          <p className="max-w-[450px] dark:text-white mt-4 text-center md:text-lg text-dark-200 font-medium font-prompt leading-h2">
             Directly investing in RDF factories through NFTs: A win-win for you and the environment.
           </p>
 
-          <button className="bg-greenish-500 hover:bg-greenish-400 rounded-full h-14 text-[#1A1A1A] w-[264px] flex items-center mt-5 justify-center font-prompt">
+          <button className="bg-greenish-500 hover:bg-greenish-400 rounded-full h-14 text-dark-200 w-[264px] flex items-center mt-5 justify-center font-prompt">
             Download Our ENGC App
           </button>
         </div>

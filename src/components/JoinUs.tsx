@@ -7,9 +7,9 @@ const JoinUs = () => {
         <h2 className="font-bold relative dark:text-black z-10 text-center font-prompt text-2xl md:text-h2 ">
           Join Us in Pioneering Green Investments
         </h2>
-        <p className=" my-3 dark:text-black text-center relative z-10 font-prompt text-lg text-[#1A1A1A] ">Start your ENGC journey today</p>
+        <p className=" my-3 dark:text-black text-center relative z-10 font-prompt text-lg text-dark-200 ">Start your ENGC journey today</p>
 
-        <button className="bg-[#1A1A1A] relative z-10 rounded-full h-14 text-white dark:text-white w-[264px] flex items-center mt-5 justify-center font-prompt">
+        <button className="bg-dark-200 hover:bg-dark-100 relative z-10 rounded-full h-14 text-white dark:text-white w-[264px] flex items-center mt-5 justify-center font-prompt">
           Download Our ENGC App
         </button>
 

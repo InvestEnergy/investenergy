@@ -3,7 +3,7 @@ import React from 'react'
 
 const Engc = () => {
   return (
-    <section className="bg-[#F0F5FC] dark:bg-[#353535] py-24">
+    <section className="bg-[#F0F5FC] dark:bg-dark-100 py-24">
       <div className="max-w-7xl relative mx-auto">
         <Image data-aos="fade-up" className='absolute bottom-1/2 md:-bottom-10 left-full md:left-[29%] z-0' src={"/engc1.png"} width={96} height={60} alt='engc1' />
         <Image data-aos="fade-up" className='absolute -top-10 right-52 z-0' src={"/engc2.png"} width={66} height={26} alt='engc2' />

@@ -6,7 +6,7 @@ const Navigating = () => {
       <h2 className="font-bold text-center font-prompt text-2xl md:text-h2 ">
         Navigating the Path to a <span className="text-skyblue-500">Greener Future</span>
       </h2>
-      <p className="  text-center font-prompt text-lg text-[#1A1A1A] dark:text-white ">Our roadmap: Where we are and where we&apos;re headed</p>
+      <p className="  text-center font-prompt text-lg text-dark-200 dark:text-white ">Our roadmap: Where we are and where we&apos;re headed</p>
 
       <div className="my-6 sm:my-10 lg:my-16">
         <div className="relative grid grid-cols-1 my-4 ml-4 md:grid-cols-2 lg:grid-cols-3">
