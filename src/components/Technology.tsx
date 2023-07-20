@@ -93,14 +93,14 @@ const Technology = () => {
             height={300}
             width={200}
             alt=""
-            className="!absolute dark:hidden mix-blend-multiply !object-cover top-8 left-8"
+            className="mb-10 md:mb-auto dark:hidden mix-blend-multiply !object-cover "
             src="/card_two_light.png"
           />
           <Image
             height={300}
             width={200}
             alt=""
-            className="!absolute hidden dark:block !object-cover top-8 left-8"
+            className="mb-10 md:mb-auto hidden dark:block !object-cover "
             src="/card_two_dark.png"
           />
           <h3 className="font-semibold relative z-10 font-prompt leading-6">

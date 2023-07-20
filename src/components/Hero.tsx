@@ -57,7 +57,7 @@ const Hero = () => {
             Directly investing in RDF factories through NFTs: A win-win for you and the environment.
           </p>
 
-          <button className="bg-greenish-500 rounded-full h-14 text-[#1A1A1A] dark:text-[#1A1A1A] w-[264px] flex items-center mt-5 justify-center font-prompt">
+          <button className="bg-greenish-500 hover:bg-greenish-400 rounded-full h-14 text-[#1A1A1A] w-[264px] flex items-center mt-5 justify-center font-prompt">
             Download Our ENGC App
           </button>
         </div>

@@ -26,7 +26,7 @@ const RealDigital = () => {
         <div className="flex-[4] relative bg-light dark:bg-dark">
           <h2
             data-aos="fade-up"
-            className="text-2xl sm:text-h2 text-center md:text-left font-bold dark:text-white font-prompt text-[#1A1A1A]">
+            className="text-2xl sm:text-h2 text-center md:text-left font-bold dark:text-white font-prompt text-dark-200 mb-6">
             Bridging the <br />
             <span className="text-skyblue-500">Real and Digital Worlds</span>
           </h2>

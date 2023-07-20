@@ -40,7 +40,7 @@ const Potential = () => {
           <h2 className="font-bold text-center md:text-left font-prompt text-2xl md:text-h2 ">
             Uncover Your Earning <br className="hidden sm:inline-block" /> Potential with <span className="text-skyblue-500">ENGC</span>
           </h2>
-          <p className=" font-prompt text-lg mt-2 text-[#1A1A1A] dark:text-white ">Investment opportunities tailored for everyone</p>
+          <p className="text-center md:text-left font-prompt text-lg mt-2 text-[#1A1A1A] dark:text-white ">Investment opportunities tailored for everyone</p>
 
           <Image src="/chart_light.png" className="object-cover mt-4 dark:hidden" height={417} width={360} alt="" />
           <Image src="/chart_dark.png" className="hidden object-cover mt-4 dark:block" height={417} width={360} alt="" />
