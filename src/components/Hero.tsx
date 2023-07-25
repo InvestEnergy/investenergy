@@ -58,7 +58,7 @@ const Hero = () => {
           </p>
 
           <button className="bg-greenish-500 hover:bg-greenish-400 rounded-full h-14 text-dark-200 w-[264px] flex items-center mt-5 justify-center font-prompt">
-            Download Our ENGC App
+            Coming Soon
           </button>
         </div>
       </section>

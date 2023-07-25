@@ -10,7 +10,7 @@ const JoinUs = () => {
         <p className=" my-3 dark:text-black text-center relative z-10 font-prompt text-lg text-dark-200 ">Start your ENGC journey today</p>
 
         <button className="bg-dark-200 hover:bg-dark-100 relative z-10 rounded-full h-14 text-white dark:text-white w-[264px] flex items-center mt-5 justify-center font-prompt">
-          Download Our ENGC App
+          Coming Soon
         </button>
 
         <div className="absolute w-[120%] md:w-[70%] left-1/2 -translate-x-1/2 top-full rounded-full bg-[#38F3A6] -translate-y-1/2 h-[862px] "></div>
