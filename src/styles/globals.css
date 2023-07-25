@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply dark:bg-dark bg-light;
+        @apply dark:bg-dark bg-light overflow-x-hidden;
     }
 }
 
